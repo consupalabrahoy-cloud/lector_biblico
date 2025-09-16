@@ -28,7 +28,7 @@ const BOOKS_URLS = {
     //"Judas": "./Judas.csv",
     //"Apocalipsis": "./Apocalipsis.csv",
 };
-const DICTIONARY_URL = "./vocabulario_nt.json";
+const DICTIONARY_URL = "https://gist.githubusercontent.com/consupalabrahoy-cloud/964829a32e2c35313f44e39983422397/raw/83710666f4db56e60a0eba4ce021fcaed38e9ccb/vocabulario_nt.json";
 
 // Variables globales para almacenar los datos
 let allBibleData = [];
@@ -262,4 +262,5 @@ function handleTabClick(event) {
 }
 
 document.addEventListener('DOMContentLoaded', loadData);
+
 
