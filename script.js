@@ -1,34 +1,34 @@
-// URLs de los archivos de datos (ahora rutas relativas en tu repositorio)
+// URLs de los archivos de datos (ahora rutas directas en la carpeta principal)
 const BOOKS_URLS = {
-    "Mateo": "https://raw.githubusercontent.com/consupalabrahoy-cloud/lector_biblico/main/Mateo.csv",
-    //"Marcos": "./data/Marcos.csv",
-    //"Lucas": "./data/Lucas.csv",
-    //"Juan": "./data/Juan.csv",
-    //"Hechos": "./data/Hechos.csv",
-    //"Romanos": "./data/Romanos.csv",
-    //"1º a los Corintios": "./data/PrimeraCorintios.csv",
-    //"2º a los Corintios": "./data/SegundaCorintios.csv",
-    //"Gálatas": "./data/Gálatas.csv",
-    //"Efesios": "./data/Efesios.csv",
-    //"Filipenses": "./data/Filipenses.csv",
-    //"Colosenses": "./data/Colosenses.csv",
-    //"1º a los Tesalonicenses": "./data/PrimeraTesalonicenses.csv",
-    //"2º a los Tesalonicenses": "./data/SegundaTesalonicenses.csv",
-    //"1º a Timoteo": "./data/PrimeraTimoteo.csv",
-    //"2º a Timoteo": "./data/SegundaTimoteo.csv",
-    //"Tito": "./data/Tito.csv",
-    //"Filemón": "./data/Filemón.csv",
-    //"Hebreos": "./data/Hebreos.csv",
-    //"Santiago": "./data/Santiago.csv",
-    //"1º de Pedro": "./data/PrimeraPedro.csv",
-    //"2º de Pedro": "./data/SegundaPedro.csv",
-    //"1º de Juan": "./data/PrimeraJuan.csv",
-    //"2º de Juan": "./data/SegundaJuan.csv",
-    //"3º de Juan": "./data/TerceraJuan.csv",
-    //"Judas": "./data/Judas.csv",
-    //"Apocalipsis": "./data/Apocalipsis.csv",
+    "Mateo": "./Mateo.csv",
+    "Marcos": "./Marcos.csv",
+    "Lucas": "./Lucas.csv",
+    "Juan": "./Juan.csv",
+    "Hechos": "./Hechos.csv",
+    "Romanos": "./Romanos.csv",
+    "1º a los Corintios": "./PrimeraCorintios.csv",
+    "2º a los Corintios": "./SegundaCorintios.csv",
+    "Gálatas": "./Gálatas.csv",
+    "Efesios": "./Efesios.csv",
+    "Filipenses": "./Filipenses.csv",
+    "Colosenses": "./Colosenses.csv",
+    "1º a los Tesalonicenses": "./PrimeraTesalonicenses.csv",
+    "2º a los Tesalonicenses": "./SegundaTesalonicenses.csv",
+    "1º a Timoteo": "./PrimeraTimoteo.csv",
+    "2º a Timoteo": "./SegundaTimoteo.csv",
+    "Tito": "./Tito.csv",
+    "Filemón": "./Filemón.csv",
+    "Hebreos": "./Hebreos.csv",
+    "Santiago": "./Santiago.csv",
+    "1º de Pedro": "./PrimeraPedro.csv",
+    "2º de Pedro": "./SegundaPedro.csv",
+    "1º de Juan": "./PrimeraJuan.csv",
+    "2º de Juan": "./SegundaJuan.csv",
+    "3º de Juan": "./TerceraJuan.csv",
+    "Judas": "./Judas.csv",
+    "Apocalipsis": "./Apocalipsis.csv",
 };
-const DICTIONARY_URL = "./data/vocabulario_nt.json";
+const DICTIONARY_URL = "./vocabulario_nt.json";
 
 // Variables globales para almacenar los datos
 let allBibleData = [];
@@ -262,4 +262,3 @@ function handleTabClick(event) {
 }
 
 document.addEventListener('DOMContentLoaded', loadData);
-
