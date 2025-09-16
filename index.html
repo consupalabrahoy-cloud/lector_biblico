@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lector Interlineal del Nuevo Testamento</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div id="app-container">
+        <aside id="sidebar">
+            <div class="sidebar-section">
+                <h2>Seleccionar Pasaje</h2>
+                <div class="select-wrapper">
+                    <select id="book-select"></select>
+                </div>
+                <div class="select-wrapper">
+                    <select id="chapter-select"></select>
+                </div>
+            </div>
+            <hr class="separator">
+            <div class="sidebar-section">
+                <h2>Opciones de Vista</h2>
+                <div class="select-wrapper">
+                    <label for="font-size-select">Tamaño de la fuente:</label>
+                    <select id="font-size-select">
+                        <option value="16">Pequeña</option>
+                        <option value="18" selected>Normal</option>
+                        <option value="23">Grande</option>
+                    </select>
+                </div>
+            </div>
+        </aside>
+
+        <main id="main-content">
+            <header>
+                <h1>Lector Interlineal español-griego del Nuevo Testamento</h1>
+                <p>Reina-Valera Antigua y Westcott-Hort.</p>
+                <hr>
+            </header>
+
+            <section id="passage-section">
+                <h2 id="passage-title"></h2>
+                <div id="bible-text"></div>
+            </section>
+            <hr>
+
+            <section id="search-section">
+                <h2>Búsqueda y concordancia</h2>
+                <input type="text" id="search-input" placeholder="Ingrese una palabra o secuencia de letras en español o griego">
+                <div id="tabs-container">
+                    <button class="tab-button active" data-tab="concordance">Concordancia</button>
+                    <button class="tab-button" data-tab="dictionary">Diccionario</button>
+                </div>
+                <div id="concordance-tab-content" class="tab-content active"></div>
+                <div id="dictionary-tab-content" class="tab-content"></div>
+            </section>
+        </main>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
