@@ -102,7 +102,7 @@ async function loadData() {
 
     } catch (error) {
         console.error("Error inesperado en la carga de datos:", error);
-        bibleTextContainer.innerHTML = `<p style="color:red;">Error inesperado en la aplicación. Revisa la consola del navegador para más detalles.</p>`;
+        bibleTextContainer.innerHTML = `<p style="color:red;">Error al cargar datos. Mensaje: ${error.message}</p>`;
     }
 }
 
@@ -262,5 +262,6 @@ function handleTabClick(event) {
 }
 
 document.addEventListener('DOMContentLoaded', loadData);
+
 
 
