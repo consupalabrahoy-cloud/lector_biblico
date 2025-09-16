@@ -1,4 +1,4 @@
-// URLs de los archivos de datos (ahora rutas directas en la carpeta principal)
+// URLs de los archivos de datos (rutas directas en la carpeta principal)
 const BOOKS_URLS = {
     "Mateo": "./Mateo.csv",
     "Marcos": "./Marcos.csv",
