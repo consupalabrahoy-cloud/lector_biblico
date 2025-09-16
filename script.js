@@ -62,7 +62,19 @@ async function loadData() {
                 const lines = text.split('\n').slice(1);
                 return lines.map(line => {
                     const match = line.match(/^(\d+),(\d+),([\s\S]*)/);
-                    if (!match) return null;
+                    const lines = text.split('\n');
+return lines.map(line => {
+    if (!line.trim()) {
+        console.warn(`Línea vacía o con solo espacios. Ignorando...`);
+        return null;
+    }
+    const match = line.match(/^(\d+),(\d+),([\s\S]*)/);
+    if (!match) {
+        console.error(`Error de formato en la línea: "${line}"`);
+        return null;
+    }
+    // ...código que sigue...
+}).filter(Boolean);
                     const [_, capitulo, versiculo, texto] = match;
                     const [texto_espanol, texto_griego] = splitText(texto);
                     return {
@@ -262,6 +274,7 @@ function handleTabClick(event) {
 }
 
 document.addEventListener('DOMContentLoaded', loadData);
+
 
 
 
