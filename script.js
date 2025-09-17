@@ -5,7 +5,7 @@ const BOOKS_URLS = {
     "Lucas": "https://gist.githubusercontent.com/consupalabrahoy-cloud/18caf9a4a6c7fbbb6cb737575226e2b2/raw/2c1f99c882cd48a5bbadc934a1ada265a54d67b2/Lucas.csv",
     "Juan": "https://gist.githubusercontent.com/consupalabrahoy-cloud/de1be45bd708b8e5a9faa27180928c6d/raw/21c37db0ad85a68c310976cb4da83cf3e37ff421/Juan.csv",
     "Hechos": "https://gist.githubusercontent.com/consupalabrahoy-cloud/57ad8a0d06aff8cc558ab049ecc986f6/raw/dd1cc2af6d04ddfff3738c43be53c638453eedfe/Hechos.csv",
-    "Romanos": "https://gist.githubusercontent.com/consupalabrahoy-cloud/b36ece16c1c8cc085078cb3cdee5a002/raw/1fe0f7eaa9c74ae9bf4a2ca810917841c167e3dc/Romanos.csv",
+    "Romanos": "https://gist.githubusercontent.com/consupalabrahoy-cloud/9ed5dd10e494b5a2b59fb72a27659494/raw/64a9f092ec80d0b41bddecf8d87e6b0529544209/romanos.csv",
     "1º a los Corintios": "https://gist.githubusercontent.com/consupalabrahoy-cloud/d91777893510b11a73c403472c3fc053/raw/4165385e2f3ea71c4184e2af76e1816890e85143/PrimeraCorintios.csv",
     "2º a los Corintios": "https://gist.githubusercontent.com/consupalabrahoy-cloud/23835350791d75a2fd2b74460c47f313/raw/3f297fca8a20271294ee50be43377abb8d255779/SegundaCorintios.csv",
     "Gálatas": "https://gist.githubusercontent.com/consupalabrahoy-cloud/191befa64bed89146535058beb193d73/raw/4f08d3626fd889b28446fa0736ed7ce1e257b94b/G%25C3%25A1latas.csv",
@@ -267,6 +267,7 @@ function handleTabClick(event) {
 }
 
 document.addEventListener('DOMContentLoaded', loadData);
+
 
 
 
