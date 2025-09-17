@@ -61,13 +61,14 @@ async function loadData() {
                 }
                 const text = await response.text();
                 const lines = text.split('\n');
-                lines.forEach(line => {
+                lines.forEach((line, index) => {
                     if (!line.trim() || line.startsWith('Libro,Capítulo,Versículo,Texto')) {
                         return;
                     }
                     const match = line.match(/^(.*?),(.*?),(.*?),([\s\S]*)/);
                     if (!match) {
-                        console.error(`Error de formato en la línea del libro ${bookName}: "${line}"`);
+                        // Mensaje de depuración para encontrar la línea que falla
+                        console.error(`Error de formato en la línea ${index + 1} del libro ${bookName}: "${line}"`);
                         return;
                     }
                     const [_, book, capitulo, versiculo, texto] = match;
@@ -111,15 +112,16 @@ async function loadData() {
     }
 }
 
-function splitText(fullText) {
-    const match = fullText.match(/\s(?=[α-ωΑ-Ω])/);
-    if (match) {
-        const splitIndex = match.index;
-        const spanishText = fullText.substring(0, splitIndex).trim();
-        const greekText = fullText.substring(splitIndex).trim();
-        return [spanishText, greekText];
+function splitText(text) {
+    // Eliminar las comillas dobles al principio y al final si existen
+    if (text.startsWith('"') && text.endsWith('"')) {
+        text = text.substring(1, text.length - 1);
     }
-    return [fullText, ""];
+    const match = text.split(/\s(?=[α-ωΑ-Ω])/);
+    if (match.length > 1) {
+        return [match[0], match.slice(1).join(' ').trim()];
+    }
+    return [match[0], ""];
 }
 
 function normalizeText(word) {
@@ -278,6 +280,7 @@ function handleTabClick(event) {
 }
 
 document.addEventListener('DOMContentLoaded', loadData);
+
 
 
 
