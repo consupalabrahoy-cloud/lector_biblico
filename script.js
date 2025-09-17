@@ -51,31 +51,28 @@ const fontSizeSelect = document.getElementById('font-size-select');
 // --- Funciones de Carga de Datos y Procesamiento ---
 async function loadData() {
     try {
-        const bookPromises = Object.entries(BOOKS_URLS).map(async ([bookName, url]) => {
-            if (!url) { // Ignora si la URL es nula o vacía
-                return null;
-            }
+        const bibleData = [];
+        for (const [bookName, url] of Object.entries(BOOKS_URLS)) {
             try {
                 const response = await fetch(url);
                 if (!response.ok) {
                     console.error(`Error al cargar ${url}: ${response.statusText}`);
-                    return null;
+                    continue;
                 }
                 const text = await response.text();
-                // Manejará líneas vacías y encabezados automáticamente
                 const lines = text.split('\n');
-                return lines.map(line => {
+                lines.forEach(line => {
                     if (!line.trim() || line.startsWith('capitulo,versiculo,texto')) {
-                        return null;
+                        return;
                     }
                     const match = line.match(/^(\d+),(\d+),([\s\S]*)/);
                     if (!match) {
                         console.error(`Error de formato en la línea del libro ${bookName}: "${line}"`);
-                        return null;
+                        return;
                     }
                     const [_, capitulo, versiculo, texto] = match;
                     const [texto_espanol, texto_griego] = splitText(texto);
-                    return {
+                    bibleData.push({
                         Libro: bookName,
                         Capítulo: parseInt(capitulo, 10),
                         Versículo: parseInt(versiculo, 10),
@@ -83,33 +80,32 @@ async function loadData() {
                         Texto_Griego: texto_griego,
                         Normalized_Espanol: normalizeText(texto_espanol),
                         Normalized_Griego: normalizeText(texto_griego),
-                    };
-                }).filter(Boolean);
+                    });
+                });
             } catch (error) {
                 console.error(`Error de red al cargar ${url}:`, error);
-                return null;
+                continue;
             }
-        });
-        const allBooks = await Promise.all(bookPromises);
-        allBibleData = allBooks.flat().filter(Boolean);
+        }
+        allBibleData = bibleData.filter(Boolean);
 
+        // Cargar el diccionario de forma independiente
         const dictResponse = await fetch(DICTIONARY_URL);
         if (!dictResponse.ok) {
             console.error(`Error al cargar el diccionario: ${dictResponse.statusText}`);
-            return;
+        } else {
+            const dictList = await dictResponse.json();
+            dictList.forEach(entry => {
+                const normalizedWord = normalizeText(entry.palabra);
+                dictionaryData[normalizedWord] = entry;
+            });
         }
-        const dictList = await dictResponse.json();
-        dictList.forEach(entry => {
-            const normalizedWord = normalizeText(entry.palabra);
-            dictionaryData[normalizedWord] = entry;
-        });
-
+        
         if (allBibleData.length > 0) {
             initializeUI();
         } else {
             bibleTextContainer.innerHTML = `<p style="color:red;">Error fatal: No se pudieron cargar datos válidos. Verifique los archivos CSV.</p>`;
         }
-
     } catch (error) {
         console.error("Error inesperado en la carga de datos:", error);
         bibleTextContainer.innerHTML = `<p style="color:red;">Error al cargar datos. Mensaje: ${error.message}</p>`;
@@ -272,6 +268,7 @@ function handleTabClick(event) {
 }
 
 document.addEventListener('DOMContentLoaded', loadData);
+
 
 
 
