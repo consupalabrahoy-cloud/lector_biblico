@@ -69,6 +69,7 @@ select {
     font-size: 1rem;
     background-color: var(--card-background);
     cursor: pointer;
+    box-sizing: border-box; /*Agregado*/
 }
 
 /* Estilos del contenido principal */
@@ -124,6 +125,7 @@ header p {
     border: 1px solid var(--border-color);
     border-radius: 6px;
     font-size: 1rem;
+    box-sizing: border-box; /*Agregado*/
 }
 
 /* Estilos de las pestañas */
@@ -191,3 +193,4 @@ header p {
     }
 
 }
+
