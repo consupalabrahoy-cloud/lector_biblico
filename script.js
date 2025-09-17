@@ -52,6 +52,9 @@ const fontSizeSelect = document.getElementById('font-size-select');
 async function loadData() {
     try {
         const bookPromises = Object.entries(BOOKS_URLS).map(async ([bookName, url]) => {
+            if (!url) { // Ignora si la URL es nula o vacía
+                return null;
+            }
             try {
                 const response = await fetch(url);
                 if (!response.ok) {
@@ -59,22 +62,17 @@ async function loadData() {
                     return null;
                 }
                 const text = await response.text();
-                const lines = text.split('\n').slice(1);
+                // Manejará líneas vacías y encabezados automáticamente
+                const lines = text.split('\n');
                 return lines.map(line => {
+                    if (!line.trim() || line.startsWith('capitulo,versiculo,texto')) {
+                        return null;
+                    }
                     const match = line.match(/^(\d+),(\d+),([\s\S]*)/);
-                    const lines = text.split('\n');
-return lines.map(line => {
-    if (!line.trim()) {
-        console.warn(`Línea vacía o con solo espacios. Ignorando...`);
-        return null;
-    }
-    const match = line.match(/^(\d+),(\d+),([\s\S]*)/);
-    if (!match) {
-        console.error(`Error de formato en la línea: "${line}"`);
-        return null;
-    }
-    // ...código que sigue...
-}).filter(Boolean);
+                    if (!match) {
+                        console.error(`Error de formato en la línea del libro ${bookName}: "${line}"`);
+                        return null;
+                    }
                     const [_, capitulo, versiculo, texto] = match;
                     const [texto_espanol, texto_griego] = splitText(texto);
                     return {
@@ -109,7 +107,7 @@ return lines.map(line => {
         if (allBibleData.length > 0) {
             initializeUI();
         } else {
-            bibleTextContainer.innerHTML = `<p style="color:red;">No se pudieron cargar los datos de la Biblia. Revisa la consola del navegador para más detalles.</p>`;
+            bibleTextContainer.innerHTML = `<p style="color:red;">Error fatal: No se pudieron cargar datos válidos. Verifique los archivos CSV.</p>`;
         }
 
     } catch (error) {
@@ -274,6 +272,7 @@ function handleTabClick(event) {
 }
 
 document.addEventListener('DOMContentLoaded', loadData);
+
 
 
 
