@@ -133,7 +133,7 @@ function normalizeText(word) {
 
 // --- Lógica de la interfaz de usuario ---
 function initializeUI() {
-    const books = [...new Set(allBibleData.map(item => item.Libro))].sort();
+    const books = [...new Set(allBibleData.map(item => item.Libro))];
 
     bookSelect.innerHTML = '';
     books.forEach(book => {
@@ -280,6 +280,7 @@ function handleTabClick(event) {
 }
 
 document.addEventListener('DOMContentLoaded', loadData);
+
 
 
 
