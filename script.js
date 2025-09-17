@@ -242,15 +242,26 @@ function searchDictionary(term) {
     if (dictEntry) {
         const entryDiv = document.createElement('div');
         entryDiv.classList.add('dict-item');
-        const analisisHtml = Object.entries(dictEntry.analisis_gramatical || {}).map(([key, value]) => {
-            return `<p><strong>${key.charAt(0).toUpperCase() + key.slice(1)}:</strong> ${value}</p>`;
-        }).join('');
+        
+        const analisisData = dictEntry.analisis_gramatical;
+        let analisisHtml = '';
+        
+        if (typeof analisisData === 'string') {
+            analisisHtml = `<p>${analisisData}</p>`;
+        } else if (typeof analisisData === 'object' && analisisData !== null) {
+            analisisHtml = Object.entries(analisisData).map(([key, value]) => {
+                return `<p><strong>${key.charAt(0).toUpperCase() + key.slice(1)}:</strong> ${value}</p>`;
+            }).join('');
+        } else {
+            analisisHtml = '<p>No disponible</p>';
+        }
+
         entryDiv.innerHTML = `
             <h4>${dictEntry.palabra || 'No disponible'}</h4>
             <p><strong>Transliteración:</strong> ${dictEntry.transliteracion || 'No disponible'}</p>
             <p><strong>Traducción literal:</strong> ${dictEntry.traduccion_literal || 'No disponible'}</p>
             <p><strong>Análisis Morfológico:</strong></p>
-            ${analisisHtml || '<p>No disponible</p>'}
+            ${analisisHtml}
         `;
         dictionaryContent.appendChild(entryDiv);
     } else {
@@ -267,6 +278,7 @@ function handleTabClick(event) {
 }
 
 document.addEventListener('DOMContentLoaded', loadData);
+
 
 
 
