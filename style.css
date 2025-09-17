@@ -26,7 +26,7 @@ body {
 }
 
 /* Estilos de la barra lateral */
-#sidebar {
+/#sidebar_original {
     flex: 0 0 300px; /* Ancho fijo para la barra lateral */
     background-color: var(--card-background);
     padding: 20px;
@@ -35,6 +35,14 @@ body {
     height: fit-content;
 }
 
+#sidebar {
+    /* La propiedad flex 0 0 300px; se elimina de aquí */
+    background-color: var(--card-background);
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 2px 10px rgba(0,0,0,0.05);
+    height: fit-content;
+}
 .sidebar-section h2 {
     font-size: 1.2rem;
     color: var(--primary-color);
@@ -181,4 +189,5 @@ header p {
         border-bottom: 1px solid var(--border-color);
         border-radius: 0;
     }
+
 }
