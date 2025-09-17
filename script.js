@@ -62,18 +62,18 @@ async function loadData() {
                 const text = await response.text();
                 const lines = text.split('\n');
                 lines.forEach(line => {
-                    if (!line.trim() || line.startsWith('capitulo,versiculo,texto')) {
+                    if (!line.trim() || line.startsWith('Libro,Capítulo,Versículo,Texto')) {
                         return;
                     }
-                    const match = line.match(/^(\d+),(\d+),([\s\S]*)/);
+                    const match = line.match(/^(.*?),(.*?),(.*?),([\s\S]*)/);
                     if (!match) {
                         console.error(`Error de formato en la línea del libro ${bookName}: "${line}"`);
                         return;
                     }
-                    const [_, capitulo, versiculo, texto] = match;
+                    const [_, book, capitulo, versiculo, texto] = match;
                     const [texto_espanol, texto_griego] = splitText(texto);
                     bibleData.push({
-                        Libro: bookName,
+                        Libro: book,
                         Capítulo: parseInt(capitulo, 10),
                         Versículo: parseInt(versiculo, 10),
                         Texto_Español: texto_espanol,
@@ -89,7 +89,6 @@ async function loadData() {
         }
         allBibleData = bibleData.filter(Boolean);
 
-        // Cargar el diccionario de forma independiente
         const dictResponse = await fetch(DICTIONARY_URL);
         if (!dictResponse.ok) {
             console.error(`Error al cargar el diccionario: ${dictResponse.statusText}`);
@@ -268,6 +267,7 @@ function handleTabClick(event) {
 }
 
 document.addEventListener('DOMContentLoaded', loadData);
+
 
 
 
