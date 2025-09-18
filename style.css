@@ -194,4 +194,23 @@ header p {
 
 }
 
+/*Estilo para el boton de enlace a inicio*/
+#enlace-externo-boton {
+    display: block; /* Hace que ocupe todo el ancho disponible */
+    width: 100%;
+    padding: 10px;
+    margin-top: 20px;
+    text-align: center;
+    background-color: var(--primary-color);
+    color: white;
+    text-decoration: none; /* Elimina la línea de subrayado */
+    border-radius: 6px;
+    font-size: 1rem;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+#enlace-externo-boton:hover {
+    background-color: #08809e; /* Un color ligeramente más oscuro al pasar el cursor */
+}
 
