@@ -51,43 +51,47 @@ const fontSizeSelect = document.getElementById('font-size-select');
 // --- Funciones de Carga de Datos y Procesamiento ---
 async function loadData() {
     try {
+        const fetchPromises = Object.entries(BOOKS_URLS).map(([bookName, url]) =>
+            fetch(url)
+                .then(response => {
+                    if (!response.ok) {
+                        console.error(`Error al cargar ${url}: ${response.statusText}`);
+                        return ''; // Retorna un string vacío en caso de error para que no falle Promise.all
+                    }
+                    return response.text();
+                })
+        );
+        
+        const allTexts = await Promise.all(fetchPromises);
+        
         const bibleData = [];
-        for (const [bookName, url] of Object.entries(BOOKS_URLS)) {
-            try {
-                const response = await fetch(url);
-                if (!response.ok) {
-                    console.error(`Error al cargar ${url}: ${response.statusText}`);
-                    continue;
+        allTexts.forEach((text, index) => {
+            if (!text) return;
+            const bookName = Object.keys(BOOKS_URLS)[index];
+            const lines = text.split('\n');
+            lines.forEach((line, lineIndex) => {
+                if (!line.trim() || line.startsWith('Libro,Capítulo,Versículo,Texto')) {
+                    return;
                 }
-                const text = await response.text();
-                const lines = text.split('\n');
-                lines.forEach((line, index) => {
-                    if (!line.trim() || line.startsWith('Libro,Capítulo,Versículo,Texto')) {
-                        return;
-                    }
-                    const match = line.match(/^(.*?),(.*?),(.*?),([\s\S]*)/);
-                    if (!match) {
-                        // Mensaje de depuración para encontrar la línea que falla
-                        console.error(`Error de formato en la línea ${index + 1} del libro ${bookName}: "${line}"`);
-                        return;
-                    }
-                    const [_, book, capitulo, versiculo, texto] = match;
-                    const [texto_espanol, texto_griego] = splitText(texto);
-                    bibleData.push({
-                        Libro: book,
-                        Capítulo: parseInt(capitulo, 10),
-                        Versículo: parseInt(versiculo, 10),
-                        Texto_Español: texto_espanol,
-                        Texto_Griego: texto_griego,
-                        Normalized_Espanol: normalizeText(texto_espanol),
-                        Normalized_Griego: normalizeText(texto_griego),
-                    });
+                const match = line.match(/^(.*?),(.*?),(.*?),([\s\S]*)/);
+                if (!match) {
+                    console.error(`Error de formato en la línea ${lineIndex + 1} del libro ${bookName}: "${line}"`);
+                    return;
+                }
+                const [_, book, capitulo, versiculo, texto] = match;
+                const [texto_espanol, texto_griego] = splitText(texto);
+                bibleData.push({
+                    Libro: book,
+                    Capítulo: parseInt(capitulo, 10),
+                    Versículo: parseInt(versiculo, 10),
+                    Texto_Español: texto_espanol,
+                    Texto_Griego: texto_griego,
+                    Normalized_Espanol: normalizeText(texto_espanol),
+                    Normalized_Griego: normalizeText(texto_griego),
                 });
-            } catch (error) {
-                console.error(`Error de red al cargar ${url}:`, error);
-                continue;
-            }
-        }
+            });
+        });
+
         allBibleData = bibleData.filter(Boolean);
 
         const dictResponse = await fetch(DICTIONARY_URL);
@@ -280,6 +284,7 @@ function handleTabClick(event) {
 }
 
 document.addEventListener('DOMContentLoaded', loadData);
+
 
 
 
