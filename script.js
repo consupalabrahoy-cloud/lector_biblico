@@ -283,7 +283,15 @@ function handleTabClick(event) {
     document.getElementById(`${tab}-tab-content`).classList.add('active');
 }
 
-document.addEventListener('DOMContentLoaded', loadData);
+//document.addEventListener('DOMContentLoaded', loadData); se elimina está linea del original y se agrega lo que sigue:
+
+// --- Iniciar la aplicación cuando el DOM esté completamente cargado ---
+document.addEventListener('DOMContentLoaded', () => {
+    // Muestra el mensaje de carga antes de que comience el proceso
+    bibleTextContainer.innerHTML = '<p class="loading-message">Cargando los datos de la aplicación...</p>';
+
+    loadData();
+});
 
 
 
