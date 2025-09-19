@@ -123,7 +123,7 @@ header p {
     width: 100%;
     padding: 10px;
     margin-bottom: 20px;
-    border: 1px solid var(--primary-color);
+    border: 2px solid var(--primary-color);
     border-radius: 6px;
     font-size: 1rem;
     box-sizing: border-box; /*Agregado*/
@@ -222,6 +222,7 @@ header p {
 #enlace-externo-boton:hover {
     background-color: #08809e; /* Un color ligeramente más oscuro al pasar el cursor */
 }
+
 
 
 
