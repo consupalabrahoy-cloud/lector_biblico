@@ -28,8 +28,8 @@ const BOOKS_URLS = {
     "Judas": "https://gist.githubusercontent.com/consupalabrahoy-cloud/fede1c609f50bd6e8607f2713df0eb8d/raw/7228ff11bc2319f1ef263028b0b5fbf2644f6136/Judas.csv",
     "Apocalipsis": "https://gist.githubusercontent.com/consupalabrahoy-cloud/50089fb1221cb00f8c7f7a2b8fc2c56f/raw/f08b0b312a8f564da935aecd3b6cd48ce5bad033/Apocalipsis.csv",
 };
-//const DICTIONARY_URL = "https://gist.githubusercontent.com/consupalabrahoy-cloud/964829a32e2c35313f44e39983422397/raw/83710666f4db56e60a0eba4ce021fcaed38e9ccb/vocabulario_nt.json";
-const DICTIONARY_URL = "https://gist.githubusercontent.com/consupalabrahoy-cloud/964829a32e2c35313f44e39983422397/raw/cc8004b5741fbd8b46972db67af5a595bc25cdc7/vocabulario_nt.json";
+
+const DICTIONARY_URL = "https://raw.githubusercontent.com/consupalabrahoy-cloud/lector_biblico/main/vocabulario_nt.json";
     
 // Variables globales para almacenar los datos
 let allBibleData = [];
@@ -293,6 +293,7 @@ document.addEventListener('DOMContentLoaded', () => {
 
     loadData();
 });
+
 
 
 
