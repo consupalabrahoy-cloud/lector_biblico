@@ -23,6 +23,7 @@ body {
     margin: 0 auto;
     padding: 20px;
     gap: 30px;
+    box-sizing: border-box;
 }
 
 /* Estilos de la barra lateral */
@@ -119,7 +120,8 @@ header p {
 }
 
 #search-input {
-    width: calc(100% - 22px);
+   /* width: calc(100% - 22px);*/
+    width: 100%;
     padding: 10px;
     margin-bottom: 20px;
     border: 1px solid var(--border-color);
@@ -184,12 +186,14 @@ header p {
     #app-container {
         flex-direction: column;
         padding: 10px;
+        box-sizing: border-box;
     }
     #sidebar {
         width: 100%;
         box-shadow: none;
         border-bottom: 1px solid var(--border-color);
         border-radius: 0;
+        box-sizing: border-box;
     }
 
 }
@@ -213,6 +217,7 @@ header p {
 #enlace-externo-boton:hover {
     background-color: #08809e; /* Un color ligeramente más oscuro al pasar el cursor */
 }
+
 
 
 
