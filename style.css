@@ -203,12 +203,12 @@ header p {
 
 }
 
-/*Estilo para el boton de enlace a inicio (No aparece el botón actualmente)*/
+/*Estilo para el boton de enlace a guía de gramática*/
 #enlace-externo-boton {
     display: block;
     width: 200px; /* Cambia a un ancho fijo */
     margin: 20px auto; /* Centra el botón horizontalmente */
-    padding: 10px;
+    padding: 6px;
     text-align: center;
     /*background-color: var(--primary-color);*/
     background-color:#A3C9D4;
@@ -223,6 +223,7 @@ header p {
 #enlace-externo-boton:hover {
     background-color: #7FACB8; /* Un color ligeramente más oscuro al pasar el cursor */
 }
+
 
 
 
