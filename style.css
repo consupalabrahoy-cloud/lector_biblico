@@ -119,15 +119,20 @@ header p {
     box-shadow: 0 2px 10px rgba(0,0,0,0.05);
 }
 
-#search-input {
-   /* width: calc(100% - 22px);*/
+#search-input {   
     width: 100%;
     padding: 10px;
     margin-bottom: 20px;
-    border: 1px solid var(--border-color);
+    border: 1px solid var(--primary-color);
     border-radius: 6px;
     font-size: 1rem;
     box-sizing: border-box; /*Agregado*/
+    transition: border-color 0.3s ease; /* Agregado para una transición suave */
+}
+
+#search-input:focus {
+    outline: none; /* Elimina el resplandor predeterminado */
+    border-color: #D92B09; /* Color del borde al estar activo */
 }
 
 /* Estilos de las pestañas */
@@ -198,7 +203,7 @@ header p {
 
 }
 
-/*Estilo para el boton de enlace a inicio*/
+/*Estilo para el boton de enlace a inicio (No aparece el botón actualmente)*/
 #enlace-externo-boton {
     display: block;
     width: 200px; /* Cambia a un ancho fijo */
@@ -217,6 +222,7 @@ header p {
 #enlace-externo-boton:hover {
     background-color: #08809e; /* Un color ligeramente más oscuro al pasar el cursor */
 }
+
 
 
 
