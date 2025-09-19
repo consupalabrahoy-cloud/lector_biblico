@@ -210,8 +210,9 @@ header p {
     margin: 20px auto; /* Centra el botón horizontalmente */
     padding: 10px;
     text-align: center;
-    background-color: var(--primary-color);
-    color: white;
+    /*background-color: var(--primary-color);*/
+    background-color:#A3C9D4;
+    color: black;
     text-decoration: none;
     border-radius: 6px;
     font-size: 1rem;
@@ -220,8 +221,9 @@ header p {
 }
 
 #enlace-externo-boton:hover {
-    background-color: #08809e; /* Un color ligeramente más oscuro al pasar el cursor */
+    background-color: #7FACB8; /* Un color ligeramente más oscuro al pasar el cursor */
 }
+
 
 
 
