@@ -194,8 +194,8 @@
     {
         "palabra": "ἄβελ",
         "transliteracion": "Abel",
-        "traduccion_literal": "Respiración, aliento; vano",
-        "analisis_gramatical": "La palabra griega ἄβελ (Abel) es un sustantivo propio masculino, en nominativo singular.  No posee una raíz derivada de una palabra griega común, sino que es un nombre propio de origen hebreo,  transliterado al griego.  Como nombre propio, su análisis gramatical se limita a su función nominal. En el Nuevo Testamento, aparece como el nombre del segundo hijo de Adán y Eva, quien fue asesinado por su hermano Caín.  Su significado hebreo se relaciona con 'respiración', 'aliento', o en algunos contextos, 'vanidad'. La connotación de 'vanidad' se refiere a la fragilidad de la vida, un tema destacado en la historia bíblica de Abel y Caín.  En el contexto neotestamentario, Abel sirve como ejemplo de fe y sacrificio agradable a Dios, contrastando con la desobediencia y el asesinato de Caín.  Su nombre se usa para recordar la importancia de la fe y la justicia, y el juicio divino sobre el pecado.  No presenta flexiones verbales ni adjetivales, funcionando únicamente como un elemento nominal que designa a un personaje bíblico específico."
+        "traduccion_literal": "Respiración, aliento; vano. Nombre propio",
+        
     },
     {
         "palabra": "αβια",
@@ -203,3 +203,4 @@
         "traduccion_literal": "Se trata de un Nombre Propio,es una transliteración del nombre hebreo Abiyyah"
     }
 ]
+
