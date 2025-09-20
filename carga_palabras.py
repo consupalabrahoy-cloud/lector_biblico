@@ -5,7 +5,7 @@ import os
 
 # --- Configuración de la API ---
 # Reemplaza 'TU_CLAVE_DE_API_AQUI' con tu clave real.
-genai.configure(api_key='AIzaSyBZO7v96c5BaFyKmstHy5EYwReMIz_0QE0')
+genai.configure(api_key='TU_CLAVE_DE_API_AQUI')
 model = genai.GenerativeModel('gemini-1.5-flash')
 
 # --- Rutas de los archivos ---
@@ -119,4 +119,5 @@ def main():
             actualizar_estado_palabra(palabra, 'error')
 
 if __name__ == "__main__":
+
     main()
