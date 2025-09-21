@@ -58,5 +58,59 @@
         "transliteracion": "Abraám",
         "traduccion_literal": "Abrahán",
         "analisis_gramatical": "Clase de palabra: Sustantivo propio.\n\nRaíz: Proviene del hebreo אַבְרָהָם ('Avrāhām), que significa \"padre de una multitud\". Este es un nombre que se le dio a un personaje bíblico, ya que su nombre original era Abram (אַבְרָם, 'Avrām), que significa \"padre exaltado\".\n\nAnálisis morfológico: Es un sustantivo propio indeclinable. No presenta las inflexiones de caso, número o género que son típicas de los sustantivos griegos.\n\nComentario sobre la morfología: La naturaleza indeclinable de Ἀβραάμ en el griego koiné es una característica de muchos nombres de origen semítico. Su forma no cambia sin importar su función en la oración.\n\nAbraham es una de las figuras más importantes del Antiguo Testamento y es considerado el patriarca de las tres grandes religiones monoteístas. Su historia, incluyendo su llamado, su viaje a Canaán y el pacto que Dios estableció con él, se narra extensamente en el libro del Génesis. En el Nuevo Testamento, se le menciona con frecuencia, especialmente en las genealogías de Jesús y en las cartas de Pablo, donde se le usa como un ejemplo de fe."
+    },
+    {
+        "palabra": "ἄβυσσον",
+        "transliteracion": "ábysson",
+        "traduccion_literal": "Abismo, profundo",
+        "analisis_gramatical": "Clase de palabra: Sustantivo o adjetivo.\n\nRaíz: Formado por el prefijo privativo ἀ- (a-, \"sin\") y la palabra βυσσός (byssos, una variante de βυθός, \"fondo\" o \"lecho\"). Su significado es, literalmente, \"sin fondo\".\n\nAnálisis morfológico: Se trata de la forma acusativo singular neutro del sustantivo ἄβυσσος (abyssos), que también puede funcionar como adjetivo.\n\nComentario sobre la morfología: La terminación -ον en este caso indica que la palabra está en el caso acusativo, lo que significa que probablemente está funcionando como objeto directo de un verbo. Su significado intrínseco de \"sin fondo\" o \"inconmensurable\" se mantiene en su uso.\n"
+    },
+    {
+        "palabra": "ἀβύσσου",
+        "transliteracion": "abýssou",
+        "traduccion_literal": "Del abismo, de lo profundo",
+        "analisis_gramatical": "Clase de palabra: Sustantivo.\n\nRaíz: Formado por el prefijo privativo ἀ- (a-, \"sin\") y la palabra βυσσός (byssos, \"fondo\" o \"lecho\"), lo que significa \"sin fondo\".\n\nAnálisis morfológico: Se trata de la forma genitivo singular del sustantivo ἄβυσσος (abyssos).\n\nComentario sobre la morfología: El genitivo, indicado por la terminación -ου, se utiliza en griego para expresar posesión, origen o relación. En este caso, la palabra indica que algo \"proviene de\" o \"pertenece al\" abismo. Su función gramatical es distinta a la de ἄβυσσον, que está en caso acusativo y actúa como objeto directo.\n\nEl término ἀβύσσου se refiere al \"abismo\" o \"profundidad sin fondo\". En el Nuevo Testamento, se usa con un significado similar al de ἄβυσσον, pero su forma gramatical específica lo sitúa en un rol diferente dentro de la oración. Por ejemplo, podría describir algo que \"sale del abismo\" o \"el poder del abismo\", enfatizando su origen o relación con ese lugar. "
+    },
+    {
+        "palabra": "Ἅγαβος",
+        "transliteracion": "Ágabos",
+        "traduccion_literal": "Ágabo",
+        "analisis_gramatical": "Clase de palabra: Sustantivo propio.\n\nRaíz: El nombre probablemente tiene un origen semítico, aunque su etimología exacta es debatida.\n\nAnálisis morfológico: Se trata de un sustantivo propio indeclinable. Su forma no cambia sin importar el caso, número o género. Esto es característico de muchos nombres propios de origen no griego.\n\nComentario sobre la morfología: La falta de declinación simplifica su análisis gramatical en el griego koiné. A pesar de su forma fija, su función en la oración se determina por el contexto.\n\nÁgabo es un nombre que aparece en el libro de los Hechos de los Apóstoles en el Nuevo Testamento. Era un profeta cristiano que se menciona en dos ocasiones: primero, prediciendo una gran hambruna en los días del emperador Claudio, y luego, profetizando el encarcelamiento de Pablo en Jerusalén."
+    },
+    {
+        "palabra": "ἀγαγεῖν",
+        "transliteracion": "agageîn",
+        "traduccion_literal": "Traer, conducir, guiar",
+        "analisis_gramatical": "Clase de palabra: Verbo.\n\nRaíz: La raíz del verbo es ἀγ- o ἀγαγ-, que se deriva de la raíz de la que provienen otras formas del verbo ἄγω (agō).\n\nAnálisis morfológico: Se trata del infinitivo aoristo activo del verbo ἄγω (agō).\n\nTiempo: Aoristo.\n\nVoz: Activa.\n\nModo: Infinitivo.\n\nPor tratarse de un verbo en Modo Infinitivo, la palabra no tiene una persona, número, o género específicos. Su función es expresar la acción del verbo sin un sujeto definido, como un sustantivo verbal. El Tiempo Aoristo indica una acción puntual o simple, sin hacer referencia a la duración del evento. El Infinitivo Aoristo es una forma verbal que indica una acción completa o puntual."
+    },
+    {
+        "palabra": "ἀγάγετε",
+        "transliteracion": "agágete",
+        "traduccion_literal": "Traed, llevad, conducid",
+        "analisis_gramatical": "Clase de palabra: Verbo.\n\nRaíz: La raíz del verbo es ἀγ- o ἀγαγ-, que se deriva de la raíz del verbo ἄγω (agō).\n\nAnálisis morfológico: Se trata de la segunda persona del plural del verbo aoristo activo, modo imperativo del verbo ἄγω (agō).\n\nTiempo: Aoristo.\n\nVoz: Activa.\n\nModo: Imperativo.\n\nPersona: Segunda.\n\nNúmero: Plural.\n\nEl modo imperativo indica una orden o un mandato. La segunda persona del plural (vosotros/ustedes) significa que la orden se dirige a más de una persona. El tiempo aoristo en el imperativo indica una acción que debe realizarse de forma puntual y completa. En conjunto, ἀγάγετε es una orden directa a un grupo de personas para que \"traigan\", \"lleven\" o \"conduzcan\" algo o a alguien."
+    },
+    {
+        "palabra": "ἀγάγῃ",
+        "transliteracion": "agágē",
+        "traduccion_literal": "Traiga, lleve, guíe (él/ella/eso)",
+        "analisis_gramatical": "Clase de palabra: Verbo.\n\nRaíz: La raíz es ἀγ- o ἀγαγ-, de la raíz verbal de ἄγω (agō).\n\nAnálisis morfológico: Se trata de la tercera persona del singular del verbo aoristo activo, modo subjuntivo del verbo ἄγω (agō).\n\nEl modo subjuntivo se usa para expresar una acción posible, deseada o hipotética, a menudo en cláusulas dependientes después de conjunciones como \"para que\", \"a fin de que\", o en preguntas deliberativas. El tiempo aoristo indica una acción puntual o simple. En conjunto, ἀγάγῃ se traduce como una acción que \"él/ella/eso\" podría o debería llevar a cabo. Por ejemplo, en una frase como \"ἵνα ἀγάγῃ\" (hina agágē), significaría \"para que él/ella traiga\"."
+    },
+    {
+        "palabra": "ἀγαγόντα",
+        "transliteracion": "agagónta",
+        "traduccion_literal": "Habiendo traído, llevando",
+        "analisis_gramatical": "Clase de palabra: Participio.\n\nRaíz: La raíz es ἀγ- o ἀγαγ-, derivada del verbo ἄγω (agō).\n\nAnálisis morfológico: Se trata del participio aoristo activo del verbo ἄγω (agō). Es la forma en acusativo singular masculino del participio.\n\nTiempo: Aoristo.\n\nVoz: Activa.\n\nModo: Participio.\n\nCaso: Acusativo.\n\nNúmero: Singular.\n\nGénero: Masculino.\n\nEl modo participio funciona como una forma verbal-adjetival, describiendo a un sustantivo mientras realiza la acción del verbo. El tiempo aoristo indica una acción puntual o completa que tuvo lugar antes o al mismo tiempo que la acción del verbo principal en la oración. La terminación -οντα indica que el participio está modificando a un sustantivo masculino singular que es el objeto directo de la oración. Por lo tanto, ἀγαγόντα describe a \"alguien\" (masculino, singular) que \"habiendo traído\" o \"habiendo llevado\" algo."
+    },
+    {
+        "palabra": "ἀγαγόντες",
+        "transliteracion": "agagóntes",
+        "traduccion_literal": "Habiendo traído, llevando",
+        "analisis_gramatical": "Clase de palabra: Participio.\n\nRaíz: La raíz es ἀγ- o ἀγαγ-, derivada del verbo ἄγω (agō).\n\nAnálisis morfológico: Se trata del participio aoristo activo del verbo ἄγω (agō). Es la forma en nominativo plural masculino del participio.\n\nTiempo: Aoristo.\n\nVoz: Activa.\n\nModo: Participio.\n\nCaso: Nominativo.\n\nNúmero: Plural.\n\nGénero: Masculino.\n\nEl modo participio actúa como un adjetivo verbal, describiendo a un sustantivo mientras realiza la acción del verbo. El tiempo aoristo indica una acción puntual que ocurre antes o al mismo tiempo que la acción del verbo principal en la oración. La terminación -οντες muestra que el participio está modificando a un sustantivo masculino plural que es el sujeto de la oración. Por lo tanto, ἀγαγόντες describe a \"ellos\" (masculino, plural) que \"habiendo traído\" o \"habiendo llevado\" algo, son los que realizan la acción principal del verbo."
+    },
+    {
+        "palabra": "ἀγαθά",
+        "transliteracion": "agathá",
+        "traduccion_literal": "Cosas buenas, bienes, bondad",
+        "analisis_gramatical": "Clase de palabra: Adjetivo.\n\nRaíz: La raíz es ἀγαθ-, de la cual se deriva la familia de palabras relacionadas con la bondad.\n\nAnálisis morfológico: Se trata del nominativo/acusativo/vocativo plural neutro del adjetivo ἀγαθός (agathós, \"bueno\"). También puede ser la forma nominativo/acusativo/vocativo singular femenino. Aunque gramaticalmente la forma es idéntica en ambos casos, el contexto de la oración es lo que determina si se refiere a \"cosas buenas\" (neutro plural) o a \"una cosa buena\" (femenino singular). En el Nuevo Testamento, el uso más común es en el neutro plural, significando \"cosas buenas\" o \"bienes\".\n\nLa morfología de ἀγαθά indica que está modificando a un sustantivo neutro en plural, o a un sustantivo femenino en singular, describiendo su cualidad de ser \"bueno\" o \"buena\". Su uso en plural neutro, \"las cosas buenas\", es particularmente común para referirse a beneficios, bendiciones o buenas acciones."
     }
 ]
