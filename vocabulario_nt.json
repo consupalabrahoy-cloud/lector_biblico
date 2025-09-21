@@ -3,7 +3,30 @@
         "palabra": "Ἀαρών",
         "transliteracion": "Aarṓn",
         "traduccion_literal": "Aarón",
-        "analisis_gramatical": "Clase de palabra: Sustantivo propio.\n Raíz: Proviene del hebreo אַהֲרֹן ('Ahărown).\n Análisis morfológico: Es un sustantivo propio indeclinable. Esto significa que la forma de la palabra no cambia, sin importar su función gramatical en la oración (sujeto, objeto directo, etc.).\nComentario sobre la morfología: El hecho de que sea indeclinable es una característica de muchos nombres propios de origen semítico (como el hebreo) que fueron adoptados en el griego koiné del Nuevo Testamento. No presenta las inflexiones de caso, número o género típicas de los sustantivos griegos, lo que simplifica su análisis.\n\nAarón es el nombre del hermano mayor de Moisés, quien desempeñó un papel crucial en la historia de la liberación de los israelitas de Egipto. Fue el primer Sumo Sacerdote de Israel y se convirtió en el progenitor del linaje sacerdotal (los \"levitas\") en el Antiguo Testamento. En el Nuevo Testamento, el nombre es mencionado en referencia a su linaje sacerdotal y a su posición como sacerdote principal, en particular en la Epístola a los Hebreos, donde su sacerdocio es contrastado con el sacerdocio superior de Cristo."
+        "analisis_gramatical": " Clase de palabra: Sustantivo propio.\n Raíz: Proviene del hebreo אַהֲרֹן ('Ahărown).\n Análisis morfológico: Es un sustantivo propio indeclinable. Esto significa que la forma de la palabra no cambia, sin importar su función gramatical en la oración (sujeto, objeto directo, etc.).\nComentario sobre la morfología: El hecho de que sea indeclinable es una característica de muchos nombres propios de origen semítico (como el hebreo) que fueron adoptados en el griego koiné del Nuevo Testamento. No presenta las inflexiones de caso, número o género típicas de los sustantivos griegos, lo que simplifica su análisis.\n\nAarón es el nombre del hermano mayor de Moisés, quien desempeñó un papel crucial en la historia de la liberación de los israelitas de Egipto. Fue el primer Sumo Sacerdote de Israel y se convirtió en el progenitor del linaje sacerdotal (los \"levitas\") en el Antiguo Testamento. En el Nuevo Testamento, el nombre es mencionado en referencia a su linaje sacerdotal y a su posición como sacerdote principal, en particular en la Epístola a los Hebreos, donde su sacerdocio es contrastado con el sacerdocio superior de Cristo."
+    },
+    {
+        "palabra": "Ἀβαδδών",
+        "transliteracion": "Abaddṓn",
+        "traduccion_literal": "Abadón",
+        "analisis_gramatical": "Clase de palabra: Sustantivo propio.\n\nRaíz: Proviene del hebreo אַבַדּוֹן ('Avaddon), que significa \"destrucción\" o \"lugar de destrucción\".\n\nAnálisis morfológico: Es un sustantivo propio indeclinable. Al igual que el nombre \"Aarón\", su forma no cambia sin importar su función en la oración.\n\nComentario sobre la morfología: El hecho de que sea indeclinable es una característica de muchos nombres propios de origen semítico que fueron incorporados al griego koiné.\n\nAbadón es un nombre propio que se encuentra en el Nuevo Testamento, específicamente en el libro de Apocalipsis. Aunque en el hebreo su significado general es \"destrucción\", en este contexto particular, se usa para designar a un ser o entidad. El nombre se utiliza para referirse a la figura que gobierna sobre un grupo de criaturas. El nombre griego equivalente, Apoliõn, tiene un significado similar de \"destructor\"."
+    },
+    {
+        "palabra": "ἀβαρῆ",
+        "transliteracion": "abarē",
+        "traduccion_literal": "Sin peso, sin carga",
+        "analisis_gramatical": "Clase de palabra: Adjetivo.\n\nRaíz: Formado por el prefijo privativo ἀ- (a-, \"sin\") y la palabra βάρος (baros, \"peso\", \"carga\").\n\nAnálisis morfológico: Se trata de la forma acusativo singular o nominativo/acusativo/vocativo plural neutro del adjetivo ἀβαρής.\n\nComentario sobre la morfología: La morfología de este adjetivo indica que está describiendo a un sustantivo que es \"sin peso\" o \"sin carga\". El prefijo privativo ἀ- es clave para entender su significado, ya que invierte el sentido de la palabra a la que se une. En el contexto bíblico, a menudo se usa para describir el hecho de no ser una carga financiera o económica para otros."
+    },
+    {
+        "palabra": "ἀββᾶ",
+        "transliteracion": "abba",
+        "traduccion_literal": "Padre",
+        "analisis_gramatical": "Clase de palabra: Sustantivo, un término arameo transliterado al griego.\n\nRaíz: La palabra proviene del arameo אַבָּא ('abbā'), que significa \"padre\". Es una forma afectuosa, íntima y reverencial, similar a \"papá\".\n\nAnálisis morfológico: Se trata de un sustantivo indeclinable, lo que significa que su forma no cambia según el caso, número o género. Esto es común en las transliteraciones de palabras semíticas al griego.\n\nComentario sobre la morfología: Su naturaleza indeclinable en el griego koiné simplifica su uso gramatical. Sin embargo, su significado profundo radica en su origen arameo, donde evoca una relación de cercanía y confianza con la figura paterna. El Nuevo Testamento lo utiliza en contextos de oración para reflejar esta intimidad."
+    },
+    {
+        "palabra": "Ἅβελ",
+        "transliteracion": "Habel",
+        "traduccion_literal": "Abel",
+        "analisis_gramatical": "Clase de palabra: Sustantivo propio.\n\nRaíz: Proviene del hebreo הֶבֶל (Hebel), que significa \"aliento\" o \"vapor\".\n\nAnálisis morfológico: Es un sustantivo propio indeclinable. Esto es una característica común en los nombres de origen semítico que se adoptaron en el griego koiné. Su forma gramatical no cambia, independientemente de su función en la oración.\n\nComentario sobre la morfología: El hecho de que la palabra sea indeclinable simplifica su análisis, ya que no presenta las variaciones de caso, número o género que son típicas de los sustantivos griegos.\n\nAbel es un nombre bíblico que se encuentra tanto en el Antiguo como en el Nuevo Testamento. Fue el segundo hijo de Adán y Eva, conocido por haber sido asesinado por su hermano mayor, Caín."
     }
-
 ]
