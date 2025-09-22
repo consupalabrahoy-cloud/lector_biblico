@@ -132,7 +132,7 @@ if 'search_term' not in st.session_state: st.session_state.search_term = ''
 
 # Sección de búsqueda
 st.subheader("Buscar Palabra")
-st.text_input("Ingresa la palabra a buscar:", key="search_term", on_change=search_callback)
+st.text_input("Ingresa la palabra a buscar:", key="search_term")
 
 # Sección de entrada de datos
 st.subheader("Ingresar o Editar Datos")
@@ -148,3 +148,4 @@ with col1:
 with col2:
 
     st.button("Limpiar Campos", on_click=clear_fields_callback)
+
