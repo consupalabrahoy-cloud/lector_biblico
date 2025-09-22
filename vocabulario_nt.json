@@ -244,5 +244,11 @@
         "transliteracion": "agathō",
         "traduccion_literal": "Al bueno, con lo bueno",
         "analisis_gramatical": "Clase de palabra: Adjetivo.\n\nRaíz: La raíz es ἀγαθ-, que se asocia con el concepto de bondad.\n\nAnálisis morfológico: Se trata de la forma dativo singular masculino y neutro del adjetivo ἀγαθός (agathós, \"bueno\").\nCaso: Dativo.\n\nNúmero: Singular.\n\nGénero: Masculino y Neutro.\nEl caso dativo se utiliza para indicar el objeto indirecto (\"dar algo al bueno\") o el medio o instrumento con el que se realiza una acción (\"hacer algo con lo bueno\"). La terminación -ῳ es una característica de la segunda declinación. Esta forma es ambigua en cuanto al género; por lo tanto, el contexto de la oración es crucial para saber si se refiere a una persona (\"al hombre bueno\") o a una cosa o concepto (\"a la cosa buena\")."
+    },
+    {
+        "palabra": "ἀγαθῶν",
+        "transliteracion": "agathôn",
+        "traduccion_literal": "De los buenos, de las cosas buenas",
+        "analisis_gramatical": "Clase de palabra: Adjetivo.\n\nRaíz: La raíz es ἀγαθ-, asociada con el concepto de bondad.\n\nAnálisis morfológico: Se trata de la forma genitivo plural masculino, femenino y neutro del adjetivo ἀγαθός (agathós, \"bueno\").\n\nCaso: Genitivo.\n\nNúmero: Plural.\n\nGénero: Masculino, femenino y neutro.\n\nEl caso genitivo en plural, indicado por la terminación -ῶν, se usa para expresar posesión, origen o relación de múltiples entidades. Su forma es idéntica en los tres géneros, lo que significa que el contexto de la oración es crucial para determinar si se refiere a \"de los hombres buenos,\" \"de las mujeres buenas,\" o \"de las cosas buenas.\" Esta versatilidad morfológica lo convierte en una forma muy común en el Nuevo Testamento."
     }
 ]
