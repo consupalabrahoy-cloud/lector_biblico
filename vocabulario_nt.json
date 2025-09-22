@@ -238,5 +238,11 @@
         "transliteracion": "agathoús",
         "traduccion_literal": "Buenos, a los buenos",
         "analisis_gramatical": "Clase de palabra: Adjetivo.\n\nRaíz: La raíz es ἀγαθ-, asociada con el concepto de bondad.\n\nAnálisis morfológico: Se trata de la forma acusativo plural masculino del adjetivo ἀγαθός (agathós, \"bueno\").\nCaso: Acusativo.\n\nNúmero: Plural.\n\nGénero: Masculino.\nEl acusativo es el caso que se usa para el objeto directo de un verbo o, en ocasiones, como el objeto de una preposición. La terminación -ούς indica que el adjetivo está modificando a un sustantivo masculino en plural. Esto significa que ἀγαθούς se refiere a un grupo de individuos masculinos (\"los buenos\") que están recibiendo la acción del verbo."
+    },
+    {
+        "palabra": "ἀγαθῷ",
+        "transliteracion": "agathō",
+        "traduccion_literal": "Al bueno, con lo bueno",
+        "analisis_gramatical": "Clase de palabra: Adjetivo.\n\nRaíz: La raíz es ἀγαθ-, que se asocia con el concepto de bondad.\n\nAnálisis morfológico: Se trata de la forma dativo singular masculino y neutro del adjetivo ἀγαθός (agathós, \"bueno\").\nCaso: Dativo.\n\nNúmero: Singular.\n\nGénero: Masculino y Neutro.\nEl caso dativo se utiliza para indicar el objeto indirecto (\"dar algo al bueno\") o el medio o instrumento con el que se realiza una acción (\"hacer algo con lo bueno\"). La terminación -ῳ es una característica de la segunda declinación. Esta forma es ambigua en cuanto al género; por lo tanto, el contexto de la oración es crucial para saber si se refiere a una persona (\"al hombre bueno\") o a una cosa o concepto (\"a la cosa buena\")."
     }
 ]
