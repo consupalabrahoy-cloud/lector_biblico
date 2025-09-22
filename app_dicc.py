@@ -8,7 +8,7 @@ import os
 # Usamos st.secrets para obtener el token de manera segura
 # El nombre de la clave debe coincidir con el nombre que usarás en Streamlit Cloud
 GITHUB_TOKEN = st.secrets.get("github_token", os.environ.get("GITHUB_TOKEN"))
-REPO_NAME = "tu_usuario/tu_repositorio" # Reemplaza con tu usuario y nombre de repositorio
+REPO_NAME = "consupalabrahoy-cloud/lector_biblico" # Reemplaza con tu usuario y nombre de repositorio
 FILE_PATH = "vocabulario_nt.json"
 
 def get_github_repo():
@@ -148,4 +148,5 @@ with col1:
 with col2:
 
     st.button("Limpiar Campos", on_click=clear_fields_callback)
+
 
