@@ -262,5 +262,11 @@
         "transliteracion": "agathōsynēs",
         "traduccion_literal": "De la bondad",
         "analisis_gramatical": "Clase de palabra: Sustantivo.\n\nRaíz: Se deriva del adjetivo ἀγαθός (agathós, \"bueno\"), con el sufijo -σύνη (-synē) que indica una cualidad abstracta.\n\nAnálisis morfológico: Se trata de la forma genitivo singular femenino del sustantivo ἀγαθωσύνη (agathōsynē, \"bondad\").\n\nCaso: Genitivo.\n\nNúmero: Singular.\n\nGénero: Femenino.\n\nEl caso genitivo se usa en griego para expresar relaciones de posesión, origen o pertenencia. La terminación -ης en un sustantivo de la primera declinación, como ἀγαθωσύνη, indica este caso. Por lo tanto, ἀγαθωσύνης se refiere a algo o alguien que \"pertenece a la bondad\" o que \"proviene de la bondad\". Se usa para describir una cualidad de otra cosa o persona, por ejemplo, \"los frutos de la bondad\"."
+    },
+    {
+        "palabra": "ἀπελούσασθε",
+        "transliteracion": "apeloúsasthe",
+        "traduccion_literal": "Os lavasteis",
+        "analisis_gramatical": "Clase de palabra: Verbo.\n\nRaíz: Es un verbo compuesto, formado por el prefijo ἀπό- (apó, \"de\", \"lejos de\") y el verbo λούω (loúō, \"lavar\").\n\nAnálisis morfológico: Se trata de la segunda persona del plural del verbo aoristo medio, modo indicativo del verbo ἀπολούω (apoloúō, \"lavar, limpiar\").\n\nTiempo: Aoristo.\n\nVoz: Media.\n\nModo: Indicativo.\n\nPersona: Segunda.\n\nNúmero: Plural.\n\nEl modo indicativo presenta una acción como un hecho real y pasado. El tiempo aoristo indica una acción puntual y completa, sin énfasis en su duración. La voz media es crucial aquí, ya que el sujeto realiza la acción sobre sí mismo o para su propio beneficio. La terminación -σασθε es característica de la voz media en el aoristo. Por lo tanto, ἀπελούσασθε describe el hecho de que \"vosotros os lavasteis\" o \"vosotros fuisteis lavados\" de manera reflexiva."
     }
 ]
