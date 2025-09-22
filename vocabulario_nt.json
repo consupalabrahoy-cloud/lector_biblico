@@ -136,5 +136,11 @@
         "transliteracion": "agathḗ",
         "traduccion_literal": "Buena",
         "analisis_gramatical": "Clase de palabra: Adjetivo.\n\nRaíz: La raíz es ἀγαθ-, relacionada con el concepto de bondad.\n\nAnálisis morfológico: Se trata de la forma nominativo/vocativo singular femenino del adjetivo ἀγαθός (agathós, \"bueno\").\n\nCaso: Nominativo (sujeto) o Vocativo (interpelación).\n\nNúmero: Singular.\n\nGénero: Femenino.\n\nLa terminación -ή es la marca de género femenino en el caso nominativo. Esto indica que la palabra está describiendo a un sustantivo femenino que es el sujeto de la oración. Por ejemplo, \"ἡ ψυχή ἀγαθή\" (hē psychē agathē), \"el alma es buena\". O puede funcionar en el caso vocativo para dirigirse directamente a una mujer, como \"¡Oh buena mujer!\"."
+    },
+    {
+        "palabra": "ἀγαθήν",
+        "transliteracion": "agathḗn",
+        "traduccion_literal": "Buena (femenino, singular, acusativo)",
+        "analisis_gramatical": "Clase de palabra: Adjetivo.\n\nRaíz: La raíz es ἀγαθ-, relacionada con el concepto de bondad.\n\nAnálisis morfológico: Es la forma acusativo singular femenino del adjetivo ἀγαθός (agathós, \"bueno\").\n\nCaso: Acusativo.\n\nNúmero: Singular.\n\nGénero: Femenino.\n\nEl caso acusativo indica que la palabra está funcionando como el objeto directo de un verbo o, a veces, como el objeto de una preposición. La terminación -ήν indica que el adjetivo está modificando a un sustantivo femenino y singular. Por lo tanto, ἀγαθήν describe a una sola entidad femenina que es \"buena\" y que está recibiendo la acción de un verbo."
     }
 ]
