@@ -172,5 +172,11 @@
         "transliteracion": "agathopoieîte",
         "traduccion_literal": "Haced el bien",
         "analisis_gramatical": "Clase de palabra: Verbo.\n\nRaíz: Verbo compuesto, formado por el adjetivo ἀγαθός (agathós, \"bueno\") y el verbo ποιέω (poiéō, \"hacer\"). Literalmente, significa \"hacer lo bueno\".\n\nAnálisis morfológico: Esta forma tiene dos posibles análisis morfológicos, que deben ser diferenciados por el contexto de la oración. \n1º Imperativo presente activo, segunda persona plural.\nTiempo: Presente.\n\nVoz: Activa.\n\nModo: Imperativo.\n\nPersona: Segunda.\n\nNúmero: Plural.\n\n\n2º Indicativo presente activo, segunda persona plural. Tiempo: Presente.\n\nVoz: Activa.\n\nModo: Indicativo.\n\nPersona: Segunda.\n\nNúmero: Plural.\n\nEl modo imperativo indica un mandato o una orden a un grupo de personas (\"¡haced el bien!\"). El modo indicativo, por otro lado, describe una acción real que está sucediendo (\"vosotros hacéis el bien\"). El tiempo presente en ambos casos indica una acción continua, habitual o en curso. La terminación -εῖτε es lo que permite ambas interpretaciones, por lo que el contexto gramatical es crucial para saber si se trata de una orden o de una afirmación."
+    },
+    {
+        "palabra": "ἀγαθοποιῆσαι",
+        "transliteracion": "agathopoiēsai",
+        "traduccion_literal": "Haber hecho el bien, hacer el bien.",
+        "analisis_gramatical": "Clase de palabra: Verbo.\n\nRaíz: Es un verbo compuesto, formado por el adjetivo ἀγαθός (agathós, \"bueno\") y el verbo ποιέω (poiéō, \"hacer\"). Literalmente, significa \"hacer lo bueno\".\n\nAnálisis morfológico: Se trata del infinitivo aoristo activo del verbo ἀγαθοποιέω (agathopoiéō).\nTiempo: Aoristo.\n\nVoz: Activa.\n\nModo: Infinitivo.\nEl modo infinitivo funciona como un sustantivo verbal, sin persona ni número definidos. El tiempo aoristo en el infinitivo se utiliza para referirse a una acción puntual o completa, sin importar su duración. En conjunto, ἀγαθοποιῆσαι se usa para expresar la idea de \"haber realizado una acción buena\" en un momento específico, a diferencia del infinitivo presente que denota una acción continua."
     }
 ]
