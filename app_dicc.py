@@ -2,6 +2,7 @@ import streamlit as st
 import json
 import os
 from github import Github, GithubException
+from unidecode import unidecode # Importar la nueva biblioteca
 
 # --- Configuración de GitHub ---
 GITHUB_TOKEN = st.secrets.get("github_token", os.environ.get("GITHUB_TOKEN"))
@@ -97,11 +98,11 @@ def search_callback():
     # Cargar los datos desde el caché
     vocab_data = load_data_from_github()
     
-    # Normalizar el término de búsqueda a minúsculas para una coincidencia flexible
-    search_term_lower = st.session_state.search_term.lower()
-
-    # Buscar la palabra en los datos, también normalizando a minúsculas
-    word_data = next((item for item in vocab_data if item.get("palabra", "").lower() == search_term_lower), None)
+    # Normalizar el término de búsqueda a minúsculas y sin diacríticos
+    search_term_normalized = unidecode(st.session_state.search_term).lower()
+    
+    # Buscar la palabra en los datos, también normalizando
+    word_data = next((item for item in vocab_data if unidecode(item.get("palabra", "")).lower() == search_term_normalized), None)
     
     if word_data:
         st.session_state.input_palabra = word_data.get('palabra', '')
@@ -150,3 +151,15 @@ with col1:
     st.button("Guardar Palabra", on_click=save_callback)
 with col2:
     st.button("Limpiar Campos", on_click=clear_fields_callback)
+```
+eof
+
+### Siguientes pasos
+
+1.  **Actualiza tu `requirements.txt`**: Agrega la línea `Unidecode` al archivo.
+    ```
+    streamlit
+    requests
+    PyGithub
+    Unidecode
+    
