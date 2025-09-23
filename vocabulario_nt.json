@@ -448,5 +448,11 @@
         "transliteracion": "ádikoi",
         "traduccion_literal": "Injustos, impíos, malvados.",
         "analisis_gramatical": "Clase de palabra: Adjetivo.\n\nRaíz: La raíz es δίκ-, que se refiere a la justicia. El prefijo privativo ἀ- (a-) niega el significado, resultando en ἄδικος (ádikos, \"sin justicia\" o \"injusto\").\n\nAnálisis morfológico: Se trata de la forma nominativo/vocativo plural masculino del adjetivo.\n\n    Caso: Nominativo o Vocativo.\n\n    Número: Plural.\n\n    Género: Masculino.\n\nComentario sobre la morfología: La forma ἄδικοι describe a múltiples individuos masculinos que carecen de la cualidad de ser justos. En el caso nominativo, funciona como el sujeto de una oración (\"los injustos...\"). En el caso vocativo, se utiliza para dirigirse directamente a un grupo de personas (\"¡oh, injustos!\"). La terminación -οι es una característica de la segunda declinación y señala el plural masculino. La palabra subraya una falta de rectitud o moralidad en un grupo de personas."
+    },
+    {
+        "palabra": "κληρονομήσουσιν",
+        "transliteracion": "klēronomḗsousin",
+        "traduccion_literal": "Heredarán.",
+        "analisis_gramatical": "Clase de palabra: Verbo.\n\nRaíz: La raíz es κληρονομ-, del verbo κληρονομέω (klēronoméō), que significa \"heredar\" o \"recibir por herencia\". La palabra se forma a partir de κλῆρος (klêros, \"suerte\", \"porción\", \"herencia\") y νέμω (némō, \"distribuir\").\n\nAnálisis morfológico: Se trata de la tercera persona del plural del futuro activo, modo indicativo.\n\n    Tiempo: Futuro.\n\n    Voz: Activa.\n\n    Modo: Indicativo.\n\n    Persona: Tercera.\n\n    Número: Plural.\n\nComentario sobre la morfología: El modo indicativo presenta la acción como un hecho que ocurrirá en el futuro. El tiempo futuro se indica por el sufijo -σ- antes de la terminación de persona y número, y la vocal temática η. La voz activa indica que el sujeto es el que realiza la acción. La terminación -ουσιν señala que el sujeto es un grupo de personas o entidades (\"ellos\", \"ellas\"). En conjunto, κληρονομήσουσιν describe la acción de que un grupo de personas \"heredarán\" o \"recibirán por herencia\" algo en el futuro."
     }
 ]
