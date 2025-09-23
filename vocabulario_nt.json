@@ -400,5 +400,11 @@
         "transliteracion": "adelphós",
         "traduccion_literal": "Hermano",
         "analisis_gramatical": "Clase de palabra: Sustantivo.\n\nRaíz: La raíz es ἀδελφ-, de la que proviene este sustantivo. La etimología de la palabra se deriva de la combinación de la preposición ἀ- (a-, una forma de ἅμα, háma, que significa \"junto\") y δελφύς (delphýs, que significa \"útero\"). Juntas, estas partes sugieren la idea de \"nacido del mismo útero\", o en otras palabras, \"hermano\".\n\nAnálisis morfológico: Se trata de la forma nominativo singular masculino del sustantivo.\n\n    Caso: Nominativo.\n\n    Número: Singular.\n\n    Género: Masculino.\n\nComentario sobre la morfología: El nominativo es el caso que indica que la palabra funciona como el sujeto de una oración. La terminación -ος es característica de los sustantivos masculinos de la segunda declinación en el griego koiné. Por lo tanto, ἀδελφός se refiere a un único individuo masculino que es el agente principal de una acción. La palabra se usa comúnmente en el Nuevo Testamento no solo para referirse a hermanos de sangre, sino también a hermanos en un sentido figurado, como a miembros de una comunidad de fe."
+    },
+    {
+        "palabra": "ἀπίστων",
+        "transliteracion": "apístōn",
+        "traduccion_literal": "De los incrédulos, de los infieles",
+        "analisis_gramatical": "Clase de palabra: Adjetivo.\n\nRaíz: La raíz es πιστ-, que significa \"confiar\" o \"creer\". El prefijo privativo ἀ- (a-) le añade un sentido de negación, resultando en ἀ-πιστος (a-pistos), que significa \"sin fe\" o \"increíble\".\n\nAnálisis morfológico: Se trata de la forma genitivo plural, de los tres géneros (masculino, femenino y neutro) del adjetivo.\n\n    Caso: Genitivo.\n\n    Número: Plural.\n\n    Género: Masculino, femenino y neutro.\n\nComentario sobre la morfología: El caso genitivo se utiliza para expresar una relación de posesión, origen o pertenencia. La terminación -ων es una característica del genitivo plural en adjetivos de la tercera declinación, y su forma es la misma para los tres géneros. Por lo tanto, ἀπίστων puede referirse a \"de los hombres incrédulos\", \"de las mujeres incrédulas\" o \"de las cosas increíbles\". La palabra describe la cualidad de \"no creer\" o \"ser infiel\" en relación con un sustantivo o un concepto."
     }
 ]
