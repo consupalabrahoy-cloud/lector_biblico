@@ -280,5 +280,11 @@
         "transliteracion": "agalliathēnai",
         "traduccion_literal": "Regocijarse, alegrarse grandemente.",
         "analisis_gramatical": "Clase de palabra: Verbo.\n\nRaíz: La raíz del verbo es ἀγαλλιάω (agalliáō), que significa \"alegrarse grandemente, regocijarse\". La etimología no es clara, pero su uso indica una emoción intensa.\n\nAnálisis morfológico: Se trata del infinitivo aoristo pasivo del verbo ἀγαλλιάω.\nTiempo: Aoristo.\n\nVoz: Pasiva.\n\nModo: Infinitivo.\n\nEl modo infinitivo funciona como un sustantivo verbal, sin persona ni número definidos. El tiempo aoristo indica una acción puntual, sin importar su duración. La voz pasiva es crucial aquí, ya que el sujeto no realiza la acción, sino que la recibe o es afectado por ella. En este caso, el significado de regocijarse es inherente a la voz pasiva, lo que sugiere que la alegría es algo que le \"ocurre\" al sujeto. Por lo tanto, ἀγαλλιαθῆναι se traduce como \"ser regocijado\" o \"experimentar un gran regocijo\".\n"
+    },
+    {
+        "palabra": "ἀδικῶν",
+        "transliteracion": "adikôn",
+        "traduccion_literal": "Injusto, haciendo el mal, el que hace injusticia.",
+        "analisis_gramatical": "Clase de palabra: Participio.\n\nRaíz: Se deriva del verbo ἀδικέω (adikéō), que significa \"ser injusto\" o \"hacer el mal\". La palabra se forma con el prefijo privativo ἀ- (a-, \"sin\") y la raíz de δίκη (díkē, \"justicia\").\n\nAnálisis morfológico: Se trata del participio presente activo, nominativo singular masculino o nominativo/acusativo/vocativo singular neutro del verbo ἀδικέω.\n\n    Tiempo: Presente.\n\n    Voz: Activa.\n\n    Modo: Participio.\n\n    Caso: Nominativo (masculino/neutro), Acusativo (neutro) o Vocativo (masculino/neutro).\n\n    Número: Singular.\n\n    Género: Masculino o Neutro.\n\nComentario sobre la morfología: El modo participio funciona como un adjetivo verbal, describiendo a un sustantivo mientras realiza la acción del verbo. El tiempo presente indica una acción continua o habitual. La terminación -ῶν es característica de los participios presentes en tercera declinación. Esta forma se refiere a una sola persona (\"el que hace el mal\") o a una sola cosa (\"lo que causa injusticia\") que está realizando la acción de manera continua."
     }
 ]
