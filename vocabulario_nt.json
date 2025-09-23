@@ -472,5 +472,11 @@
         "transliteracion": "éxestin",
         "traduccion_literal": "Es lícito, es posible, es permisible",
         "analisis_gramatical": "Clase de palabra: Verbo.\n\nRaíz: La raíz es ἐξ- (ex, \"fuera de\") y εἰμί (eimí, \"ser\"). La palabra compuesta literalmente significa \"es posible salir\" o \"está permitido\".\n\nAnálisis morfológico: Se trata de la tercera persona del singular del presente activo, modo indicativo del verbo ἔξεστι.\n\nTiempo: Presente.\n\nVoz: Activa.\n\nModo: Indicativo.\n\nPersona: Tercera.\n\nNúmero: Singular.\nComentario sobre la morfología: La forma ἔξεστιν es un verbo impersonal. Esto significa que no tiene un sujeto personal (como \"él\" o \"ella\") sino que la acción se refiere a un concepto abstracto o general. La terminación -εστιν indica la tercera persona del singular, y su significado es siempre que \"es lícito\" o \"es permitido\". El modo indicativo presenta la acción como un hecho que es verdadero en el presente."
+    },
+    {
+        "palabra": "συμφέρει",
+        "transliteracion": "symférei",
+        "traduccion_literal": "Es provechoso, es útil, es beneficioso",
+        "analisis_gramatical": "Clase de palabra: Verbo.\n\nRaíz: La raíz es φέρ-, del verbo φέρω (phérō, \"llevar\", \"traer\"). La palabra se compone con el prefijo σύν (syn, \"con\", \"junto a\"), lo que da a la palabra un sentido de \"llevar algo junto\" o \"conectar\", lo que resulta en la idea de que algo \"aporta\" o \"es útil\".\n\nAnálisis morfológico: Se trata de la tercera persona del singular del presente activo, modo indicativo del verbo συμφέρω (symphérō).\n\nTiempo: Presente.\n\nVoz: Activa.\n\nModo: Indicativo.\n\nPersona: Tercera.\n\nNúmero: Singular.\n\nComentario sobre la morfología: La forma συμφέρει es un verbo impersonal, lo que significa que su sujeto no es una persona, sino una idea o una situación. La terminación -ει indica la tercera persona del singular. La palabra describe una acción o un estado que es un hecho en el presente (indicativo, presente): \"es provechoso\" o \"es de beneficio\". Es una palabra clave en el griego koiné para expresar la idea de conveniencia o utilidad de una acción o un suceso."
     }
 ]
