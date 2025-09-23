@@ -316,5 +316,11 @@
         "transliteracion": "kritērīōn",
         "traduccion_literal": "De los criterios, de las reglas, de los juicios.",
         "analisis_gramatical": "Clase de palabra: Sustantivo.\n\nRaíz: La raíz es κριτ-, de donde proviene el sustantivo neutro κριτήριον (kritḗrion), que significa \"criterio\", \"norma\", \"regla\" o \"tribunal de justicia\".\n\nAnálisis morfológico: Se trata de la forma genitivo plural del sustantivo.\n\n    Caso: Genitivo.\n\n    Número: Plural.\n\n    Género: Neutro.\n\nComentario sobre la morfología: El genitivo plural, indicado por la terminación -ων, se utiliza para expresar posesión o una relación de origen. En este caso, κριτηρίων se refiere a algo que \"pertenece a los criterios\" o que es \"de los juicios\"."
+    },
+    {
+        "palabra": "κρινοῦμεν",
+        "transliteracion": "krinoûmen",
+        "traduccion_literal": "Juzgaremos, decidiremos",
+        "analisis_gramatical": "Clase de palabra: Verbo.\n\nRaíz: La raíz es κριν-, de la que proviene el verbo κρίνω (krínō), que significa \"juzgar\", \"discernir\" o \"condenar\".\n\nAnálisis morfológico: Se trata de la primera persona del plural del futuro activo, modo indicativo del verbo κρίνω.\n\n    Tiempo: Futuro.\n\n    Voz: Activa.\n\n    Modo: Indicativo.\n\n    Persona: Primera.\n\n    Número: Plural.\n\nComentario sobre la morfología: El modo indicativo presenta la acción como un hecho futuro y real. El tiempo futuro se indica por la combinación de vocales ου en la raíz. La primera persona del plural (la terminación -μεν) significa que el sujeto de la acción es un grupo que incluye al hablante (\"nosotros\"). En conjunto, κρινοῦμεν describe la acción que \"nosotros juzgaremos\" o \"decidiremos\" en un punto futuro."
     }
 ]
