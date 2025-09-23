@@ -274,5 +274,11 @@
         "transliteracion": "biblos",
         "traduccion_literal": "libro, rollo.",
         "analisis_gramatical": "Caso: Nominativo. Esta es la forma básica de la palabra, usada cuando actúa como sujeto de una oración.\n\nNúmero: Singular. La palabra se refiere a un solo libro o rollo.\n\nGénero: Femenino. A pesar de la terminación -ος, que a menudo indica sustantivos masculinos en la segunda declinación, βιβλος es un sustantivo femenino. En resumen, βιβλος es un sustantivo femenino singular en caso nominativo, y su significado es \"libro\" o \"rollo\", derivado del radical βιβλ y el sufijo -ος."
+    },
+    {
+        "palabra": "ἀγαλλιαθῆναι",
+        "transliteracion": "agalliathēnai",
+        "traduccion_literal": "Regocijarse, alegrarse grandemente.",
+        "analisis_gramatical": "Clase de palabra: Verbo.\n\nRaíz: La raíz del verbo es ἀγαλλιάω (agalliáō), que significa \"alegrarse grandemente, regocijarse\". La etimología no es clara, pero su uso indica una emoción intensa.\n\nAnálisis morfológico: Se trata del infinitivo aoristo pasivo del verbo ἀγαλλιάω.\nTiempo: Aoristo.\n\nVoz: Pasiva.\n\nModo: Infinitivo.\n\nEl modo infinitivo funciona como un sustantivo verbal, sin persona ni número definidos. El tiempo aoristo indica una acción puntual, sin importar su duración. La voz pasiva es crucial aquí, ya que el sujeto no realiza la acción, sino que la recibe o es afectado por ella. En este caso, el significado de regocijarse es inherente a la voz pasiva, lo que sugiere que la alegría es algo que le \"ocurre\" al sujeto. Por lo tanto, ἀγαλλιαθῆναι se traduce como \"ser regocijado\" o \"experimentar un gran regocijo\".\n"
     }
 ]
