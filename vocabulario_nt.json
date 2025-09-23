@@ -328,5 +328,11 @@
         "transliteracion": "angélous",
         "traduccion_literal": "Ángeles, mensajeros",
         "analisis_gramatical": "Clase de palabra: Sustantivo.\n\nRaíz: La raíz es ἀγγελ-, de donde proviene el sustantivo ἄγγελος (ángelos), que significa \"mensajero\" o \"ángel\".\n\nAnálisis morfológico: Se trata de la forma acusativo plural masculino del sustantivo ἄγγελος.\n\n    Caso: Acusativo.\n\n    Número: Plural.\n\n    Género: Masculino.\n\nComentario sobre la morfología: El caso acusativo se utiliza para indicar el objeto directo de un verbo o, a veces, para el objeto de una preposición. La terminación -ους es característica del acusativo plural masculino de la segunda declinación. Por lo tanto, ἀγγέλους se refiere a un grupo de \"mensajeros\" o \"ángeles\" que están recibiendo la acción del verbo."
+    },
+    {
+        "palabra": "οἴδατε",
+        "transliteracion": "oídate",
+        "traduccion_literal": "Sabéis, conocéis",
+        "analisis_gramatical": "Clase de palabra: Verbo.\n\nRaíz: La raíz del verbo es οἶδα (oîda), un verbo con un significado de conocimiento pleno e intuitivo. Es un verbo particular en el griego koiné porque su forma de perfecto con significado de presente, lo que significa que el estado de haber conocido algo en el pasado (\"yo he conocido\") se traduce al presente (\"yo sé\").\n\nAnálisis morfológico: Se trata de la segunda persona del plural del modo indicativo perfecto activo del verbo οἶδα.\n\n    Tiempo: Perfecto (con sentido de Presente).\n\n    Voz: Activa.\n\n    Modo: Indicativo.\n\n    Persona: Segunda.\n\n    Número: Plural.\n\nComentario sobre la morfología: La forma verbal οἴδατε es única debido a su tiempo perfecto con sentido de presente. A diferencia de otros verbos cuyo perfecto indica una acción completa del pasado, en este caso, la forma significa que el sujeto posee un conocimiento o una experiencia que adquirió en el pasado y que permanece hasta el presente. La terminación -ατε es característica de la segunda persona del plural en el tiempo perfecto. Por lo tanto, οἴδατε se refiere a una acción que \"vosotros sabéis\" o \"vosotros conocéis\" de manera completa e intuitiva."
     }
 ]
