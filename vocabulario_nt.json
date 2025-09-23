@@ -334,5 +334,11 @@
         "transliteracion": "oídate",
         "traduccion_literal": "Sabéis, conocéis",
         "analisis_gramatical": "Clase de palabra: Verbo.\n\nRaíz: La raíz del verbo es οἶδα (oîda), un verbo con un significado de conocimiento pleno e intuitivo. Es un verbo particular en el griego koiné porque su forma de perfecto con significado de presente, lo que significa que el estado de haber conocido algo en el pasado (\"yo he conocido\") se traduce al presente (\"yo sé\").\n\nAnálisis morfológico: Se trata de la segunda persona del plural del modo indicativo perfecto activo del verbo οἶδα.\n\n    Tiempo: Perfecto (con sentido de Presente).\n\n    Voz: Activa.\n\n    Modo: Indicativo.\n\n    Persona: Segunda.\n\n    Número: Plural.\n\nComentario sobre la morfología: La forma verbal οἴδατε es única debido a su tiempo perfecto con sentido de presente. A diferencia de otros verbos cuyo perfecto indica una acción completa del pasado, en este caso, la forma significa que el sujeto posee un conocimiento o una experiencia que adquirió en el pasado y que permanece hasta el presente. La terminación -ατε es característica de la segunda persona del plural en el tiempo perfecto. Por lo tanto, οἴδατε se refiere a una acción que \"vosotros sabéis\" o \"vosotros conocéis\" de manera completa e intuitiva."
+    },
+    {
+        "palabra": "βιωτικά",
+        "transliteracion": "biōtiká",
+        "traduccion_literal": "Perteneciente a la vida, asuntos de la vida, asuntos terrenales",
+        "analisis_gramatical": "Clase de palabra: Adjetivo.\n\nRaíz: La raíz es βιο-, de donde proviene el sustantivo βίος (bíos), que significa \"vida\" o \"medio de vida\".\n\nAnálisis morfológico: Se trata de la forma nominativo/acusativo/vocativo plural neutro del adjetivo βιωτικός (biōtikós).\n\n    Caso: Nominativo, Acusativo o Vocativo.\n\n    Número: Plural.\n\n    Género: Neutro.\n\nComentario sobre la morfología: La forma neutra plural de los adjetivos en griego, cuando se usa sin un sustantivo, a menudo funciona como un sustantivo para referirse a \"las cosas\" que poseen la cualidad del adjetivo. En este caso, βιωτικά se refiere a \"las cosas de la vida\" o \"los asuntos de la vida\". La terminación -ά es característica del neutro plural en la segunda declinación. "
     }
 ]
