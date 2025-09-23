@@ -382,5 +382,11 @@
         "transliteracion": "dynḗsetai",
         "traduccion_literal": "Podrá, será capaz",
         "analisis_gramatical": "Clase de palabra: Verbo.\n\nRaíz: La raíz es δυνα-, de la que proviene el palabra δύναμαι (dýnamai), que significa \"poder\" o \"ser capaz\". La raíz está relacionada con el concepto de fuerza y poder.\n\nAnálisis morfológico: Se trata de la tercera persona del singular del futuro, en voz media, modo indicativo del verbo δύναμαι.\n\n    Tiempo: Futuro.\n\n    Voz: Media.\n\n    Modo: Indicativo.\n\n    Persona: Tercera.\n\n    Número: Singular.\n\nComentario sobre la morfología: El modo indicativo presenta la acción como un hecho que ocurrirá en el futuro. El tiempo futuro se indica por el sufijo -σετ- antes de la terminación de persona y número. La voz media en este verbo es de vital importancia, ya que δύναμαι no tiene una forma activa. La forma media se usa para expresar que el sujeto \"se capacitará\" o \"se hará capaz\" de hacer algo. La terminación -ται indica la tercera persona del singular, por lo que la acción es realizada por un individuo (\"él, ella, eso\"). En conjunto, δυνήσεται describe que un individuo \"será capaz\" o \"podrá\" realizar una acción en el futuro."
+    },
+    {
+        "palabra": "διακρῖναι",
+        "transliteracion": "diakrînai",
+        "traduccion_literal": "Juzgar, discernir, decidir",
+        "analisis_gramatical": "Clase de palabra: Verbo.\n\nRaíz: Es un verbo compuesto, formado por la preposición διά (diá, \"a través de\", \"por medio de\") y el verbo κρίνω (krínō, \"juzgar\", \"decidir\"). La combinación sugiere la idea de \"juzgar a través de\" o \"discernir completamente\".\n\nAnálisis morfológico: Se trata del infinitivo aoristo activo del verbo διακρίνω (diakrínō).\n\n    Tiempo: Aoristo.\n\n    Voz: Activa.\n\n    Modo: Infinitivo.\n\nComentario sobre la morfología: El modo infinitivo funciona como un sustantivo verbal, sin una persona o número definidos. El tiempo aoristo en el infinitivo se utiliza para referirse a una acción puntual, completa o singular, a diferencia del presente que denota una acción continua. Por lo tanto, διακρῖναι describe la acción de \"juzgar\" o \"discernir\" en su totalidad o como un evento singular, sin énfasis en su duración."
     }
 ]
