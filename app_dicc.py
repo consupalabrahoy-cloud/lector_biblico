@@ -151,15 +151,5 @@ with col1:
     st.button("Guardar Palabra", on_click=save_callback)
 with col2:
     st.button("Limpiar Campos", on_click=clear_fields_callback)
-```
-eof
 
-### Siguientes pasos
 
-1.  **Actualiza tu `requirements.txt`**: Agrega la línea `Unidecode` al archivo.
-    ```
-    streamlit
-    requests
-    PyGithub
-    Unidecode
-    
